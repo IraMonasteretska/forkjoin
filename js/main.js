@@ -3,7 +3,7 @@ $(document).ready(function () {
 
     // change header on scroll --------------------------- //
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
+        if ($(this).scrollTop() > 200) {
             $('.header').addClass('change-bg');
         } else {
             $('.header').removeClass('change-bg');
