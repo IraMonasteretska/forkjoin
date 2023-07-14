@@ -1,0 +1,167 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+        color: inherit;
+    }
+}
+
+button:focus,
+input:focus {
+    outline: transparent;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    cursor: default;
+    font-family: 'Montserrat', sans-serif;
+    background: #0B0B11;
+}
+
+ul {
+
+    li {
+        color: #E6E6E7;
+        margin-bottom: 10px;
+        display: block;
+        position: relative;
+        padding-left: 22px;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 5px;
+            left: 0;
+            background-image: url(../img/svg/list_dote.svg);
+            width: 12px;
+            height: 12px;
+            background-size: cover;
+        }
+    }
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.pagewrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.secttitle {
+    font-family: Urbanist;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.bluebtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 0px;
+    background: #6573FF;
+    padding: 18px 40px;
+    color: #FFF;
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    box-shadow: 0px 0px 0px 0px rgba(24, 66, 99, 0.06), 0px 2px 4px 0px rgba(24, 66, 99, 0.06), 0px 8px 8px 0px rgba(24, 66, 99, 0.05), 0px 17px 10px 0px rgba(24, 66, 99, 0.03), 0px 30px 12px 0px rgba(24, 66, 99, 0.01), 0px 47px 13px 0px rgba(24, 66, 99, 0.00);
+    transition: .3s;
+    white-space: nowrap;
+    img{
+        transition: .3s;
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+        margin-left: 15px;
+    }
+    &:hover{
+        color: #FFF;
+        filter: brightness(120%);
+        border-radius: 0px 20px;
+        img{
+            transform: translateX(10px);
+        }
+    }
+}
+
+
+
+
+// ADAPTIVE ------------- //
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1460px;
+    }
+}
+
+@media (max-width: 1399.8px) {
+    .secttitle {
+        font-size: 46px;
+    }
+}
+
+@media (max-width: 991.8px) {
+    .secttitle {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 767.8px) {
+    .secttitle {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 575.8px) {
+    body {
+        font-size: 14px;
+    }
+}
