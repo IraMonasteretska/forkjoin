@@ -210,12 +210,12 @@
     }
 
     .swiper-button-prev {
-        background-image: url(/img/svg/left-arrow.svg);
+        background-image: url(../img/svg/left-arrow.svg);
         background-size: cover;
     }
 
     .swiper-button-next {
-        background-image: url(/img/svg/right-arrow.svg);
+        background-image: url(../img/svg/right-arrow.svg);
     }
 
     .swiper-pagination {
@@ -482,37 +482,6 @@
         margin-bottom: 30px;
         padding-bottom: 18px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.13);
-    }
-
-    a {
-        color: #6573FF;
-        font-family: Urbanist;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 145%;
-        position: absolute;
-        bottom: 32px;
-        left: 30px;
-        transition: .3s;
-        display: flex;
-        align-items: center;
-
-        img {
-            margin-left: 10px;
-            transition: .3s;
-            width: 28px;
-            height: 28px;
-            background-size: cover;
-        }
-
-        &:hover {
-            filter: brightness(85%);
-
-            img {
-                transform: translateX(10px);
-            }
-        }
     }
 }
 
