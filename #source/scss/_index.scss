@@ -1220,3 +1220,142 @@
         letter-spacing: 0.18px;
     }
 }
+
+
+
+// -------------------------------------- ADAPTIVE ------------------------------------ //
+
+@media (max-width:1399.8px) {
+    .experience__item {
+        padding: 50px 30px;
+        height: 500px;
+    }
+
+    .experience {
+        padding: 80px 0 0;
+    }
+
+    .philosophy {
+        padding: 80px 0;
+    }
+
+    .philosophy__left {
+        padding-right: 20px;
+    }
+
+    .welcomesect__info h1 {
+        font-size: 70px;
+    }
+}
+
+@media (max-width:1199.8px) {
+    .experience:after {
+        height: 15%;
+    }
+
+    .experience__item {
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .experience__item h3 {
+        font-size: 26px;
+    }
+
+    .philosophy__right-item {
+        margin-bottom: 25px;
+        width: 50%;
+    }
+
+    .philosophy__right-row {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:991.8px) {
+    .experience__title {
+        margin-bottom: 50px;
+    }
+
+    .philosophy__right>h2 {
+        margin-bottom: 40px;
+    }
+
+    .philosophy__left {
+        max-width: 600px;
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .philosophy__left-content h2 {
+        color: #FFF;
+        margin-bottom: 40px;
+    }
+
+    .welcomesect__info h1 {
+        font-size: 58px;
+    }
+}
+
+@media (max-width:767.8px) {
+    .experience__item {
+        padding: 80px 20px;
+    }
+    .experience {
+        padding: 70px 0 0;
+    }
+
+    .philosophy__right-item {
+        margin-bottom: 25px;
+        width: 100%;
+        margin-bottom: 40px;
+
+        p {
+            padding: 0;
+        }
+    }
+
+    .philosophy__right>h2 {
+        margin-bottom: 30px;
+    }
+
+    .philosophy__left-content p {
+        margin-bottom: 30px;
+    }
+
+    .philosophy__left-content h2 {
+        margin-bottom: 30px;
+    }
+
+    .philosophy {
+        padding: 50px 0;
+    }
+
+    .welcomesect__info h1 {
+        font-size: 46px;
+    }
+
+    .welcomesect {
+        min-height: 700px;
+    }
+
+    .welcomesect__info h1 {
+        margin-bottom: 40px;
+    }
+
+    .welcomesect__info p {
+        margin-bottom: 55px;
+    }
+}
+
+@media (max-width:575.8px) {
+    .welcomesect__info h1 {
+        font-size: 37px;
+    }
+}
+
+@media (max-width:374.8px) {
+    .welcomesect__info h1 {
+        font-size: 28px;
+    }
+}

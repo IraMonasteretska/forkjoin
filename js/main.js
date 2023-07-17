@@ -10,6 +10,32 @@ $(document).ready(function () {
         }
     });
 
+    // burger menu ---------------------------------------//
+    $('.burger-btn').click(function () {
+        $(this).toggleClass('active');
+        $('.header__nav').toggleClass('active');
+    })
+
+    // submenu ---------------------------------------//
+    function submenu() {
+        $('.submenu').off('click').on('click', function (e) {
+            e.preventDefault();
+            $(this).find('ul').slideToggle();
+        })
+    }
+    if ($(window).width() < 992) {
+        submenu();
+    }
+    $(window).resize(function () {
+        if ($(window).width() < 992) {
+            submenu();
+        } else {
+            $('.submenu').off('click');
+            $('.submenu ul').slideDown();
+        }
+    })
+
+
     // approach slider --------------------------------- //
     var swiper = new Swiper(".approach__slider", {
         pagination: {
@@ -32,7 +58,7 @@ $(document).ready(function () {
         fadeEffect: {
             crossFade: true
         },
-        loop:true,
+        loop: true,
     });
 
 });
