@@ -988,9 +988,10 @@
     justify-content: center;
 }
 
-.processes__bottom{
+.processes__bottom {
     position: relative;
-    &:after{
+
+    &:after {
         left: 0;
         bottom: 0;
         content: '';
@@ -1056,8 +1057,166 @@
 }
 
 
-//  ----------------------------- TESTIMONIALS SECTION------------------------------------- //
-.testimonials{
+//  ----------------------------- TESTIMONIALS SECTION ------------------------------------- //
+
+.testimonials {
     background: #FFF;
-    padding: 150px 0 0px;
+    padding: 150px 0 160px;
+}
+
+.testimonials__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 55px;
+
+    h2 {
+        color: #0B0B11;
+    }
+}
+
+.testimonials__item {
+    width: 100%;
+    height: 403px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    overflow: hidden;
+    box-shadow: 0px 4px 19px 0px rgba(0, 0, 0, 0.12);
+}
+
+.testimonials__item-content {
+    height: 80%;
+    padding: 35px;
+    background-color: #fff;
+
+    &>img {
+        margin-bottom: 30px;
+        width: 60px;
+        background-size: cover;
+    }
+
+    p {
+        color: #2F2F34;
+    }
+}
+
+.testimonials__item-bottom {
+    padding: 15px 35px;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    background-color: #0B0B11;
+}
+
+.testimonials__item-ava {
+    width: 60px;
+    margin-right: 15px;
+
+    img {
+        width: 100%;
+        background-size: cover;
+    }
+}
+
+.testimonials__item-info {
+    h3 {
+        color: #6573FF;
+        font-family: Urbanist;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        letter-spacing: 0.17px;
+        margin-bottom: 3px;
+    }
+
+    span {
+        color: #FFF;
+        font-family: Urbanist;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0.17px;
+    }
+}
+
+
+
+//  ----------------------------- CONTUCTUS SECTION ------------------------------------- //
+
+.contactus {
+    padding: 40px;
+    background: #141420;
+}
+
+.contactus__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contactus__title {
+    color: #fff;
+}
+
+.contactus__content {
+    display: flex;
+    align-items: center;
+}
+
+.contactus__item {
+    padding: 20px 22px;
+    border-radius: 18px;
+    background: #4C4C73;
+    display: flex;
+    align-items: center;
+
+    &+.contactus__item {
+        margin-left: 20px;
+    }
+}
+
+.contactus__item-icon {
+    width: 53px;
+    margin-right: 20px;
+
+    img {
+        width: 100%;
+        background-size: cover;
+    }
+}
+
+.contactus__item-info {
+    p {
+        color: #FFf;
+        font-family: Urbanist;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 0.18px;
+        margin-bottom: 4px;
+        display: block;
+    }
+
+    span {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0.15px;
+        margin-left: 9px;
+    }
+
+    a {
+        display: block;
+        color: #FFF;
+        font-family: Urbanist;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        letter-spacing: 0.18px;
+    }
 }
