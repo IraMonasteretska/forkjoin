@@ -167,6 +167,9 @@
 }
 
 @media (max-width: 575.8px) {
+    .footer {
+        padding: 50px 0;
+    }
     .footer__right{
         flex-wrap: wrap;
     }

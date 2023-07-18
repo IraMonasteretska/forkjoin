@@ -46,10 +46,10 @@ $(document).ready(function () {
                 return '<span class="' + className + '">' + name + '</span>';
             },
         },
-        autoplay: {
-            delay: 4000,
-            disableOnInteraction: false,
-        },
+        // autoplay: {
+        //     delay: 4000,
+        //     disableOnInteraction: false,
+        // },
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",

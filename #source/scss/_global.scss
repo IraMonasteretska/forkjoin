@@ -64,6 +64,9 @@ ul {
         display: block;
         position: relative;
         padding-left: 22px;
+        &+li{
+            margin-top: 10px;
+        }
         &:before {
             content: '';
             position: absolute;

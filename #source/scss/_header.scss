@@ -38,7 +38,8 @@
 }
 
 .header__menu {
-    margin-right: 215px;
+    // margin-right: 215px;
+    margin-right: 0;
 
     >ul {
         display: flex;
@@ -52,6 +53,7 @@
             }
 
             +li {
+                margin-top: 0;
                 margin-left: 70px;
             }
 
@@ -182,7 +184,7 @@
 
 @media(max-width: 1399.8px) {
     .header__menu {
-        margin-right: 100px;
+        // margin-right: 100px;
     }
 
     .header__menu>ul li+li {
@@ -196,7 +198,7 @@
     }
 
     .header__menu {
-        margin-right: 60px;
+        // margin-right: 60px;
     }
 
     .header__menu>ul li+li {
