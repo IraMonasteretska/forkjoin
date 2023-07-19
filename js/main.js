@@ -61,4 +61,22 @@ $(document).ready(function () {
         loop: true,
     });
 
+    // checked form policy ----------------------------------//
+    $('.checkfield input').on('click', function () {
+        $('.formbtn').toggleClass('disabled');
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });

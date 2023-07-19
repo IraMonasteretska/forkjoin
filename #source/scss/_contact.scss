@@ -1,0 +1,275 @@
+.contact-page {
+    background: #141420;
+    padding: 180px 0 100px;
+}
+
+.contact-page__title {
+    margin-bottom: 80px;
+
+    h1 {
+        color: #FFF;
+        font-family: Urbanist;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        text-transform: capitalize;
+    }
+}
+
+.contact-page__form {
+    width: 100%;
+
+    form {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .formbtn {
+        outline: none;
+        border: none;
+
+        &.disabled {
+            pointer-events: none;
+        }
+    }
+
+    .inputfield {
+        width: 49%;
+        background: transparent;
+        color: #FFF;
+        font-family: Urbanist;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%;
+        margin-bottom: 44px;
+        padding: 0 0 14px 0;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+
+        &::placeholder {
+            color: #FFF;
+            font-family: Urbanist;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%;
+            transition: .3s;
+        }
+
+        &:focus::placeholder {
+            opacity: 0;
+        }
+    }
+
+    .inputrow {
+        margin: 30px 0 40px;
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+
+        textarea {
+            resize: none;
+            background: transparent;
+            color: #FFF;
+            font-family: Urbanist;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%;
+            padding: 0 0 14px 0;
+            width: 70%;
+            height: 40px;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+
+            &::placeholder {
+                color: #FFF;
+                font-family: Urbanist;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 130%;
+                transition: .3s;
+            }
+
+            &:focus::placeholder {
+                opacity: 0;
+            }
+        }
+
+        label {
+            width: 30%;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+            padding-bottom: 14px;
+            cursor: pointer;
+            text-align: right;
+        }
+
+        input[type=file] {
+            opacity: 0;
+        }
+    }
+
+    .checkfield {
+        width: 100%;
+        margin-bottom: 60px;
+        position: relative;
+
+        span {
+            color: #FFF;
+            font-family: Urbanist;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%;
+            cursor: pointer;
+            transition: .3s;
+
+            &:hover {
+                opacity: 0.7;
+            }
+
+            &:before {
+                content: '';
+                display: inline-block;
+                margin-right: 15px;
+                vertical-align: middle;
+                width: 20px;
+                height: 20px;
+                border: 1px solid #52525A;
+                border-radius: 4px;
+            }
+        }
+
+        input {
+            opacity: 0;
+            position: absolute;
+            z-index: -1;
+
+            &:checked+span:before {
+                background-image: url(../img/svg/check_icon.svg);
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
+
+
+.contact-page__image {
+    text-align: right;
+
+    img {
+        max-width: 662px;
+        width: 100%;
+        border-radius: 40px 0px;
+    }
+}
+
+.contact-widget {
+    background: #141420;
+    padding: 100px 0 150px;
+
+    h2 {
+        color: #FFF;
+        text-align: center;
+        font-family: Urbanist;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        margin-bottom: 81px;
+        text-align: left;
+    }
+}
+
+.contact-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-row__info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-row__item {
+    display: flex;
+    align-items: center;
+
+    &+.contact-row__item {
+        margin-left: 80px;
+    }
+
+    img {
+        margin-right: 20px;
+        width: 53px;
+        height: 53px;
+        background-size: cover;
+    }
+
+    p {
+        color: #FFF;
+        font-family: Urbanist;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 0.18px;
+    }
+
+    span {
+        color: #FFF;
+        font-family: Urbanist;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0.15px;
+        margin-left: 9px;
+    }
+
+    a {
+        color: #FFF;
+        font-family: Urbanist;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        letter-spacing: 0.18px;
+        transition: .3s;
+
+        &:hover {
+            opacity: .6;
+        }
+    }
+}
+
+.contact-row__socials {
+    display: flex;
+    align-items: center;
+
+    a {
+        transition: .3s;
+
+        &:hover {
+            filter: brightness(120%);
+        }
+
+        img {
+            width: 53px;
+            height: 53px;
+            background-size: cover;
+        }
+
+        &+a {
+            margin-left: 25px;
+        }
+    }
+}

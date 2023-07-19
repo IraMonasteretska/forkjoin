@@ -559,7 +559,7 @@
 .team__head {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 100px;
 
     h2 {
@@ -687,6 +687,7 @@
     p {
         color: #2F2F34;
         margin-bottom: 40px;
+        max-width: 400px;
     }
 }
 
@@ -1153,7 +1154,7 @@
 
 
 
-//  ----------------------------- CONTUCTUS SECTION ------------------------------------- //
+//  ----------------------------- CONTUCT US SECTION ------------------------------------- //
 
 .contactus {
     padding: 40px 0;
@@ -1227,6 +1228,10 @@
         font-weight: 500;
         line-height: 150%;
         letter-spacing: 0.18px;
+        transition: .3s;
+        &:hover{
+            opacity: .6;
+        }
     }
 }
 
@@ -1302,6 +1307,9 @@
 
     .team {
         padding: 80px 0 110px;
+    }
+    .team__row-image {
+        height: 410px;
     }
 
     .team__content-icons img {
@@ -1448,7 +1456,11 @@
     .team__row-content {
         height: auto;
         width: 100%;
-        border-radius: 0;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .team__head {
+        margin-bottom: 50px;
     }
 
     .team__row {
@@ -1460,7 +1472,7 @@
         flex-direction: column-reverse;
 
         .team__row-content {
-            border-radius: 0;
+            border-radius: 20px 20px 0 0;
         }
     }
 
@@ -1833,9 +1845,6 @@
         padding: 50px 0 70px;
     }
 
-    .team__row:nth-child(2n) .team__row-content {
-        border-radius: 0;
-    }
 
     .team__row+.team__row {
         margin-top: 25px;
