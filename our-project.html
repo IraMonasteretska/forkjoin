@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our projects</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lib/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/lib/select2.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="pagewrapper">
+        <header class="header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-2 col-6">
+                        <div class="header__logo">
+                            <a href="#">
+                                <img src="img/svg/logo.svg" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-6">
+                        <div class="burger-btn">
+                            <img class="open" src="img/svg/burger-btn.svg" alt="burger">
+                            <img class="close" src="img/svg/burger-close.svg" alt="burger">
+                        </div>
+                        <div class="header__nav">
+                            <nav class="header__menu">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            Home
+                                        </a>
+                                    </li>
+                                    <li class="submenu">
+                                        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 16 16" fill="none">
+                                            <path d="M12 6L8 10L4 6" stroke="white" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                        <a href="#">
+                                            Services
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    Web Development
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Backend Development
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    DevOps/Cloud Deployments
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Additional Competencies
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Team
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Case study
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Contact
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <!-- <div class="header__contacts">
+                                <ul>
+                                    <li>
+                                        <a href="tel:+1 (347) 420-1474">
+                                            New York: +1 (347) 420-1474
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="tel:+43 676 3308473">
+                                            Austria: +43 676 3308473
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="projectswelcomesect">
+                <img class="projectswelcomesect__bg" src="img/projects/projects-welcomeimg.jpg" alt="img">
+                <div class="container">
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li>Projects</li>
+                        </ul>
+                    </div>
+                    <div class="projectswelcomesect__textbox">
+                        <h1>Our Projects</h1>
+                        <div class="descr">
+                            <p>
+                                Aliquam viverra eros et commodo vulputate. Phasellus convallis tempor finibus. Sed a
+                                elit mollis, placerat velit ut, placerat orci. Quisque sagittis lorem eu ligula cursus,
+                                vel commodo risus bibendum. Nam in iaculis ipsum. Mauris sit amet lorem sit amet sapien
+                                congue lobortis in sed nunc.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <img class="projectswelcomesect__logo" src="img/projects/logobig.svg" alt="logo">
+            </div>
+
+            <div class="projectscontent">
+
+                <div class="projectsfilter">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-5">
+                                <div class="projectsfilter__search">
+                                    <input type="text" placeholder="Search">
+                                    <button>
+                                        <img src="img/projects/search-icon.svg" alt="search">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-7">
+                                <div class="projectsfilter__selectwrap">
+                                    <div class="selectbox">
+                                        <select class="customselect" data-placeholder="Industries">
+                                            <option></option>
+                                            <option value="1">Design</option>
+                                            <option value="2">Education</option>
+                                            <option value="3">Fintech</option>
+                                            <option value="4">Construction</option>
+                                            <option value="5">Cybersecurity</option>
+                                            <option value="6">Healthcare</option>
+                                        </select>
+                                    </div>
+                                    <div class="selectbox">
+                                        <select class="customselect" data-placeholder="Services">
+                                            <option></option>
+                                            <option value="1">Design</option>
+                                            <option value="2">Education</option>
+                                            <option value="3">Fintech</option>
+                                            <option value="4">Construction</option>
+                                            <option value="5">Cybersecurity</option>
+                                            <option value="6">Healthcare</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projectswrapper">
+                    <div class="container">
+                        <div class="projectrow">
+                            <div class="projectrow__logo">
+                                <img src="img/projects/projlogo1.jpg" alt="logo">
+                            </div>
+                            <div class="projectrow__info">
+                                <div class="projectrow__infowrap">
+                                    <img src="img/projects/prlogo.svg" alt="img" class="smlogo">
+                                    <p class="title">Meetperry</p>
+                                    <div class="projecttags">
+                                        <a href="#">Next.js</a>
+                                        <a href="#">Auth0</a>
+                                        <a href="#">Prisma</a>
+                                        <a href="#">Node.js</a>
+                                        <a href="#">PostgreSQL</a>
+                                        <a href="#">TypeScript</a>
+                                    </div>
+                                    <div class="projectdescr">
+                                        <p>
+                                            Nunc sollicitudin sodales odio, et porta justo vehicula sed. Suspendisse
+                                            tincidunt, justo nec molestie malesuada, massa erat bibendum risus, a
+                                            ultrices justo dui a nulla.
+                                        </p>
+                                        <p>
+                                            <b>Voted:</b> <span>"Most Innovative Hedge Fund Platform"</span> by Hedge
+                                            Fund Magazine 2 years in a Row.
+                                        </p>
+                                    </div>
+                                    <a href="#" class="viewmore">
+                                        View more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projectrow">
+                            <div class="projectrow__logo">
+                                <img src="img/projects/projlogo2.jpg" alt="logo">
+                            </div>
+                            <div class="projectrow__info">
+                                <div class="projectrow__infowrap">
+                                    <img src="img/projects/prlogo.svg" alt="img" class="smlogo">
+                                    <p class="title">Enso Finansial</p>
+                                    <div class="projecttags">
+                                        <a href="#">Java Script</a>
+                                        <a href="#">Java</a>
+                                        <a href="#">ExtJS</a>
+                                        <a href="#">Next.js</a>
+                                    </div>
+                                    <div class="projectdescr">
+                                        <p>
+                                            Duis porta interdum turpis id commodo. Etiam accumsan magna sed elit porta,
+                                            non molestie lorem ullamcorper. Suspendisse nec magna laoreet, laoreet mi
+                                            ac, placerat ante.Vivamus vel dictum leo. Duis tempus rhoncus metus
+                                        </p>
+                                        <p>
+                                            <b>Voted:</b> <span>"Most Innovative Hedge Fund Platform"</span> by Hedge
+                                            Fund Magazine 2 years in a Row.
+                                        </p>
+                                    </div>
+                                    <a href="#" class="viewmore">
+                                        View more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projectrow">
+                            <div class="projectrow__logo">
+                                <img src="img/projects/projlogo3.jpg" alt="logo">
+                            </div>
+                            <div class="projectrow__info">
+                                <div class="projectrow__infowrap">
+                                    <img src="img/projects/prlogo.svg" alt="img" class="smlogo">
+                                    <p class="title">REW</p>
+                                    <div class="projecttags">
+                                        <a href="#">Java</a>
+                                        <a href="#">SOAP</a>
+                                        <a href="#">Docker</a>
+                                        <a href="#">PL/SQL</a>
+                                        <a href="#">Kubernetes</a>
+                                        <a href="#">Angular</a>
+                                    </div>
+                                    <div class="projectdescr">
+                                        <p>
+                                            Cras quam erat, tincidunt vel facilisis id, accumsan ut justo. Donec mattis
+                                            ut sapien id lacinia. Vestibulum id scelerisque neque, in convallis est. Sed
+                                            ultrices cursus augue, pellentesque porta purus. Curabitur et vulputate
+                                            nulla, ut sollicitudin quam. Phasellus quis.
+                                        </p>
+                                        <p>
+                                            <b>Voted:</b> <span>"Most Innovative Hedge Fund Platform"</span> by Hedge
+                                            Fund Magazine 2 years in a Row.
+                                        </p>
+                                    </div>
+                                    <a href="#" class="viewmore">
+                                        View more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projectrow">
+                            <div class="projectrow__logo">
+                                <img src="img/projects/projlogo4.jpg" alt="logo">
+                            </div>
+                            <div class="projectrow__info">
+                                <div class="projectrow__infowrap">
+                                    <img src="img/projects/prlogo.svg" alt="img" class="smlogo">
+                                    <p class="title">Tips payments</p>
+                                    <div class="projecttags">
+                                        <a href="#">React</a>
+                                        <a href="#">GraphQL</a>
+                                        <a href="#">PostgreSQL</a>
+                                        <a href="#">TypeScript</a>
+                                        <a href="#">RedwoodJS</a>
+                                        <a href="#">DigitalOcean</a>
+                                    </div>
+                                    <div class="projectdescr">
+                                        <p>
+                                            Praesent quis lacus interdum, imperdiet turpis id, rhoncus purus. Etiam quis
+                                            suscipit nulla.
+                                        </p>
+                                        <p>
+                                            <b>Voted:</b> <span>"Most Innovative Hedge Fund Platform"</span> by Hedge
+                                            Fund Magazine 2 years in a Row.
+                                        </p>
+                                    </div>
+                                    <a href="#" class="viewmore">
+                                        View more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projectrow">
+                            <div class="projectrow__logo">
+                                <img src="img/projects/projlogo5.jpg" alt="logo">
+                            </div>
+                            <div class="projectrow__info">
+                                <div class="projectrow__infowrap">
+                                    <img src="img/projects/prlogo.svg" alt="img" class="smlogo">
+                                    <p class="title">Well id</p>
+                                    <div class="projecttags">
+                                        <a href="#">Node.js</a>
+                                        <a href="#">React</a>
+                                        <a href="#">UI/UX Design</a>
+                                        <a href="#">Auth0</a>
+                                    </div>
+                                    <div class="projectdescr">
+                                        <p>
+                                            Vestibulum rhoncus blandit turpis at euismod. Donec hendrerit porttitor
+                                            sapien, feugiat tincidunt quam semper eget. Nam eu risus a elit lobortis
+                                            semper.
+                                        </p>
+                                        <p>
+                                            <b>Voted:</b> <span>"Most Innovative Hedge Fund Platform"</span> by Hedge
+                                            Fund Magazine 2 years in a Row.
+                                        </p>
+                                    </div>
+                                    <a href="#" class="viewmore">
+                                        View more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projectrow">
+                            <div class="projectrow__logo">
+                                <img src="img/projects/projlogo6.jpg" alt="logo">
+                            </div>
+                            <div class="projectrow__info">
+                                <div class="projectrow__infowrap">
+                                    <img src="img/projects/prlogo.svg" alt="img" class="smlogo">
+                                    <p class="title">Delivery service</p>
+                                    <div class="projecttags">
+                                        <a href="#">JavaScript</a>
+                                        <a href="#">PHP</a>
+                                        <a href="#">UI/UX Design</a>
+                                        <a href="#">HTML5</a>
+                                    </div>
+                                    <div class="projectdescr">
+                                        <p>
+                                            Praesent quis lacus interdum, imperdiet turpis id, rhoncus purus. Etiam quis
+                                            suscipit nulla.
+                                        </p>
+                                        <p>
+                                            <b>Voted:</b> <span>"Most Innovative Hedge Fund Platform"</span> by Hedge
+                                            Fund Magazine 2 years in a Row.
+                                        </p>
+                                    </div>
+                                    <a href="#" class="viewmore">
+                                        View more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pagination">
+                        <div class="container">
+                            <ul>
+                                <li class="pagination__prev disabled"><a href="#">Prev</a></li>
+                                <li class="active"><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li>...</li>
+                                <li><a href="#">10</a></li>
+                                <li class="pagination__next"><a href="#">Next</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="footer__left">
+                            <div class="footer__logo">
+                                <a href="#">
+                                    <img src="img/svg/logo.svg" alt="logo">
+                                </a>
+                            </div>
+                            <div class="footer__descr">
+                                <p>
+                                    ForkJoin as a company is a hight-touch collaborative IT consulting firm. We work
+                                    with you to craft multiple development streams - using our technology experts hand
+                                    in hand with your own team - to achieve an excellent “joint” result.
+                                </p>
+                            </div>
+                            <div class="footer__social">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="img/svg/footer_social_linkedin.svg" alt="icon">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="img/svg/footer_social_facebook.svg" alt="icon">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="img/svg/footer_social_instagram.png" alt="icon">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="img/svg/footer_social_telegram.svg" alt="icon">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="footer__right">
+                            <div class="footer__right-col">
+                                <h3>
+                                    Quickly to
+                                </h3>
+                                <ul class="footer__menu">
+                                    <li>
+                                        <a href="#">
+                                            Services
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Team
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Project page
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer__right-col">
+                                <h3>
+                                    Go to
+                                </h3>
+                                <div class="footer__buttons">
+                                    <a href="#" class="bluebtn">
+                                        Book a consultation
+                                    </a>
+                                    <a href="#" class="bluebtn">
+                                        Get in touch
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/swiper-bundle.min.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/select2.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
