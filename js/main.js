@@ -18,8 +18,7 @@ $(document).ready(function () {
 
     // submenu ---------------------------------------//
     function submenu() {
-        $('.submenu').off('click').on('click', function (e) {
-            e.preventDefault();
+        $('.submenu').off('click').on('click', function () {
             $(this).find('ul').slideToggle();
         })
     }
