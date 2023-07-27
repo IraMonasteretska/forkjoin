@@ -265,15 +265,19 @@
 
     a {
         transition: .3s;
+        width: 53px;
+        height: 53px;
+        background-color: #6573FF;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         &:hover {
             filter: brightness(120%);
         }
 
         img {
-            width: 53px;
-            height: 53px;
-            background-size: cover;
         }
 
         &+a {
