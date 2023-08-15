@@ -118,7 +118,8 @@
         transition: .3s;
         display: flex;
         align-items: center;
-        img{
+
+        img {
             width: 40px;
             height: 40px;
             glyph-orientation-horizontal: cover;
@@ -563,6 +564,7 @@
     .projectrow {
         margin-bottom: 55px;
     }
+
     .projectswelcomesect {
         padding-top: 100px;
     }
@@ -1065,6 +1067,10 @@
     .projectcontent__wrap>ol li {
         padding-left: 45px;
     }
+    .projectrow .projectrow__info .title {
+        margin-bottom: 30px;
+    }
+
 
 
 
@@ -1082,6 +1088,7 @@
 }
 
 @media(max-width: 991.8px) {
+
     .project__infowrap .loc {
         max-width: 220px;
         flex: 0 0 220px;
@@ -1136,6 +1143,9 @@
 }
 
 @media(max-width:575.8px) {
+    .projectrow .projectrow__info .title {
+        margin-bottom: 35px;
+    }
     .projectswelcomesect__logo {
         max-width: 200px;
     }

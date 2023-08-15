@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForkJoin</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lib/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="pagewrapper">
+        <header class="header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-2 col-6">
+                        <div class="header__logo">
+                            <a href="index.html">
+                                <img src="img/svg/logo.svg" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-6">
+                        <div class="burger-btn">
+                            <img class="open" src="img/svg/burger-btn.svg" alt="burger">
+                            <img class="close" src="img/svg/burger-close.svg" alt="burger">
+                        </div>
+                        <div class="header__nav">
+                            <nav class="header__menu">
+                                <ul>
+                                    <li>
+                                        <a href="index.html">
+                                            Home
+                                        </a>
+                                    </li>
+                                    <!-- <li class="submenu">
+                                        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 16 16" fill="none">
+                                            <path d="M12 6L8 10L4 6" stroke="white" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                        <a href="#">
+                                            Services
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <a href="service.html">
+                                                    Web Development
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="service.html">
+                                                    Backend Development
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="service.html">
+                                                    DevOps/Cloud Deployments
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="service.html">
+                                                    Additional Competencies
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li> -->
+                                    <li>
+                                        <a href="team.html">
+                                            Team
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="our-project.html">
+                                            Projects
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="case-study.html">
+                                            Case study
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">
+                                            Contact
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <!-- <div class="header__contacts">
+                                <ul>
+                                    <li>
+                                        <a href="tel:+1 (347) 420-1474">
+                                            New York: +1 (347) 420-1474
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="tel:+43 676 3308473">
+                                            Austria: +43 676 3308473
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+
+
+            <section class="contact-page">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="contact-page__title">
+                                <h1>
+                                    Let's work together
+                                </h1>
+                            </div>
+                            <div class="contact-page__form">
+                                <form>
+                                    <input class="inputfield" type="text" placeholder="Name*" aria-required="true">
+                                    <input class="inputfield" type="text" placeholder="Email*">
+                                    <input class="inputfield phone-field" type="text" placeholder="Phone number*">
+                                    <input class="inputfield" type="text" placeholder="Country">
+                                    <div class="inputrow">
+                                        <textarea placeholder="Describe how we can help you*"></textarea>
+                                        <label class="upload">
+                                            <input type="file">
+                                        </label>
+                                    </div>
+                                    <div class="checkfield">
+                                        <label>
+                                            <input type="checkbox">
+                                            <span>I have read and accepted the Privacy Policy</span>
+                                        </label>
+                                    </div>
+                                    <div class="formbtn disabled">
+                                        <input class="bluebtn " type="submit" value="Send message">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="contact-page__image">
+                                <img src="img/contact_page_image.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="fixedblock" style=" background-image: url(/img/contact_page_image.png);">
+            </section>
+
+            <section class="copysect">
+                <div class="container">
+                    <div class="copysect__inner">
+                        <h2>
+                            Copyright
+                        </h2>
+                        <p>
+                            Provided by 
+                            <b>
+                                UI360NY INC.
+                            </b>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            
+
+        </main>
+        <style>
+            .fixedblock{
+                background-attachment: fixed;
+                background-size: cover;
+                height: 700px;
+            }
+        </style>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="footer__left">
+                            <div class="footer__logo">
+                                <a href="#">
+                                    <img src="img/svg/logo.svg" alt="logo">
+                                </a>
+                            </div>
+                            <div class="footer__descr">
+                                <p>
+                                    ForkJoin as a company is a hight-touch collaborative IT consulting firm. We work
+                                    with you to craft multiple development streams - using our technology experts hand
+                                    in hand with your own team - to achieve an excellent “joint” result.
+                                </p>
+                            </div>
+                            <div class="footer__social">
+                                <ul>
+                                    <li>
+                                        <a target="_blank" href="https://www.linkedin.com/company/forkjoin/">
+                                            <img src="img/svg/footer_social_linkedin.svg" alt="icon">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://t.me/miglazer">
+                                            <img src="img/svg/footer_social_telegram.svg" alt="icon">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="footer__right">
+                            <!-- <div class="footer__right-col">
+                                <h3>
+                                    Quickly to
+                                </h3>
+                                <ul class="footer__menu">
+                                    <li>
+                                        <a href="team.html">
+                                            Team
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="our-project.html">
+                                            Project page
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div> -->
+                            <div class="footer__right-col">
+                                <h3>
+                                    Go to
+                                </h3>
+                                <div class="footer__buttons">
+                                    <a href="contact.html" class="bluebtn">
+                                        Get in touch
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/swiper-bundle.min.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
